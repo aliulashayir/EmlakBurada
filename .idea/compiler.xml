@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="userservice" />
+        <module name="kitapyurdum-customer-service" />
+        <module name="kitapyurdum-notification-service" />
+        <module name="kitapyurdum-product-service" />
+        <module name="kitapyurdum-order-service" />
+        <module name="kitapyurdum-publisher-service" />
+        <module name="kitapyurdum-bill-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="userservice" options="-parameters" />
+      <module name="kitapyurdum-bill-service" options="-parameters" />
+      <module name="kitapyurdum-customer-service" options="-parameters" />
+      <module name="kitapyurdum-notification-service" options="-parameters" />
+      <module name="kitapyurdum-order-service" options="-parameters" />
+      <module name="kitapyurdum-product-service" options="-parameters" />
+      <module name="kitapyurdum-publisher-service" options="-parameters" />
     </option>
   </component>
 </project>

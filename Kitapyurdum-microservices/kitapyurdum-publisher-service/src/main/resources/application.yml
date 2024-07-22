@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: kitapyurdum-publisher-service
+server:
+  port: 8093
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

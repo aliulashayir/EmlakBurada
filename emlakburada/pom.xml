@@ -15,7 +15,9 @@
 
     <modules>
         <module>userservice</module>
+        <module>service-registry</module>
     </modules>
+
 
     <dependencyManagement>
         <dependencies>
